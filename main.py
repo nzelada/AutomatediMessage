@@ -16,9 +16,7 @@ def send_message(phone_number, message):
     os.system('osascript send.scpt {} "{}"'.format(phone_number, message))
 
 if __name__ == '__main__':
-    # words = get_words('miracle.txt')
-    # for word in words:
-    #     send_message(config.TEAMMATE3, word)
+ 
 
 
     text = get_lines('brit.txt')
